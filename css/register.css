@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ol,ul,h1,h2,h3,h4,h5,h6,form,table,td,th,dl,dt,dd,fieldset,legend,input{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+ol,ul{
+	list-style:none;
+}
+input{
+	outline:none;
+	border:none;
+}
+/*header*/
+.header_a{
+	width:100%;
+	height:120px;
+	border-bottom:1px solid #dddddd;
+}
+.header_a_pho{
+	width:127px;
+	height:60px;
+	margin-left:110px;
+	margin-top:25px;
+	float:left;
+}
+.header_a_pho img{
+	float:left;
+}
+.header_a_two{
+	width:180px;
+	height:20px;
+	float:right;
+	margin-right:140px;
+	margin-top:35px;
+}
+.header_a_two a{
+	font-size:13px;
+	color:#666666;
+	padding:0px 16px;
+	text-decoration:none;
+}
+.header_a_two a:hover{
+	color:skyblue;
+}
+.header_a_two_a1{
+	border-right:1px solid #ffc58c;
+}
+.header_a_two_a2{
+	border-left:1px solid #668cc5;
+}
+/*con*/
+.con_a{
+	width:100%;
+	height:628px;
+	background:url(../img/reg_img3.png) center;
+	position:relative;
+	margin:0 auto;
+}
+.con_a_box{
+	width:368px;/*
+	height:405px;*/
+	position:absolute;
+	bottom:111px;
+	right:124px;
+	background:white;
+}
+.middle_box1{
+	display:block;
+}
+.middle_box2{
+	display:none;
+}
+.con_a_tit{
+	width:296px;
+	height:52px;
+	border-bottom:1px solid #dddddd;
+	margin:15px auto;
+}
+.con_a_tit_box1,.con_a_tit_box2{
+	width:148px;
+	height:52px;
+	float:left;
+	text-align:center;
+}
+.con_a_tit_box1{
+	border-bottom:1px solid #33cb98;
+}
+.con_a_tit a{
+	color:#000;
+	font-size:13px;
+	line-height:52px;
+	padding:20px auto;
+}
+.con_a_input_box1,.con_a_input_box2{
+	width:294px;
+	height:45px;
+	border:1px solid #dddddd;
+	margin:16px auto;
+}
+.con_a_input_box3{
+	border:1px solid #dddddd;
+}
+.con_a_input_box3,.con_a_input_box4,.con_a_input_box5{
+	width:294px;
+	height:45px;
+	margin:16px auto;
+}
+.con_a_input1,.con_a_input2,.con_a_input3{
+	width:250px;
+	height:45px;
+	float:right;
+	color:#c8c8c8;
+}
+.con_a_input_box4,.con_a_input_box5{
+	display:flex;
+}
+.con_a_input4,.con_a_input5{
+	width:190px;
+	height:45px;
+	border:1px solid #dddddd;
+	display:inline-block;
+	text-indent: 43px;
+}
+.con_a_input_box4 img{
+	width:100px;
+	height:47px;
+	display:inline-block;
+}
+.con_a_span5{
+	float:right;
+	width:98px;
+	height:45px;
+	border:1px solid #33cb98;
+	border-radius:5px;
+	font-size: 12px;
+	color:#666666;
+	line-height: 45px;
+	text-align: center;
+}
+.con_a_reg{
+	width:294px;
+	height:45px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:35px;
+}
+.con_a_but{
+	width:13px;
+	height:13px;
+	border:1px solid #8e8f8f;
+	float:left;
+	margin-top:17px;
+}
+.con_a_span,.con_a_a{
+	font-size:13px;
+	color:#666666;
+	line-height:45px;
+}
+.con_a_a{
+	float:right;
+}
+.con_a_a:hover{
+	color:skyblue;
+}
+.con_a_register{
+	width:294px;
+	height:45px;
+	margin:10px auto;
+	background:#33cb98;
+	border-radius: 4px;
+	box-sizing:border-box;
+	padding-left:15px;
+}
+.con_a_registertwo{
+	width:294px;
+	height:45px;
+	margin:10px auto;
+	background:#33cb98;
+	border-radius: 4px;
+	box-sizing:border-box;
+	padding-left:15px;
+	display:none;
+}
+.con_a_register p{
+	width:280px;
+	height:45px;
+	font-size: 18px;
+	color:white;
+	text-align:center;
+	line-height: 45px;
+	letter-spacing:20px;
+}
+.con_a_registertwo p{
+	width:280px;
+	height:45px;
+	font-size: 18px;
+	color:white;
+	text-align:center;
+	line-height: 45px;
+	letter-spacing:20px;
+}
+.con_img_id_box{
+	width:294px;
+	height:45px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:37px;
+	color:#666;
+	font-size:12px;
+}
+.con_a_imgs{
+	width:147px;
+	height:45px;
+	margin-top:5px;
+	margin-bottom:5px;
+	float:left;
+}
+.con_a_imgs img{
+	float:left;
+	margin-right:10px;
+}
+.con_a_imgs p{
+	text-align: left;
+	line-height: 25px;
+}
+.con_a_id{
+	width:147px;
+	height:45px;
+	margin-top:5px;
+	margin-bottom:5px;
+	float:left;
+	text-align: right;
+}
+.con_a_id a{
+	line-height: 25px;
+}
+/*footer*/
+.footer_a{
+	width:100%;
+	height:179px;
+	margin:0 auto;
+}
+.footer_a_a{
+	text-align: center;
+	margin-top:75px;
+}
+.footer_a_a a{
+	font-size: 12px;
+	color:#999999;
+	padding:0 6px;
+	line-height: 23px;
+}
+.footer_a_border{
+	border-right:1px solid #999;
+}
+.footer_a_p{
+	text-align: center;
+	font-size: 12px;
+	color:#999999;
+	line-height: 23px;
+}
